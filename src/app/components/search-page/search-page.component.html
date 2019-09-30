@@ -1,0 +1,51 @@
+<div class="searchPage-container">
+    <div>
+        <div class="search-head searchHead-holder search-txt"> SEARCH
+            <span class="dot-holder" (click)='showHideLogout()'>
+                            <span class="logout-dot upper-dot" ></span>
+            <span class="logout-dot lower-dot"></span>
+            </span>
+        </div>
+    </div>
+
+    <div class="logout-holder" *ngIf="showLogoutBtn">
+        <div class="logout-box shadow" (click)='logout()'>Sign Out</div>
+
+    </div>
+    <div class="search-bar-holder">
+        <input class="search-bar" type="text" placeholder="Enter the word to search" (ngModelChange)="keyUp.next($event)" [(ngModel)]="searchKey" name="searchKey">
+        <span> <button class="search-btn" (click)="showSearchKey()"  >Search</button></span>
+    </div>
+    <div class="not-found-box" *ngIf="showResultStatus">No Results Found</div>
+    <div class="listItems" *ngIf="items?.length>0">
+        <table rules="rows">
+            <tr *ngFor="let item of items">
+                <td>{{item?.name}}</td>
+            </tr>
+            <!-- <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr>
+            <tr>
+                <td>January</td>
+            </tr> -->
+        </table>
+    </div>
+</div>

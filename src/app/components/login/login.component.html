@@ -1,0 +1,31 @@
+<div class="login-container">
+    <div class="header-holder">
+        <div class="search-container header-shadow">
+            <div class="search-txt">Search</div>
+            <div class="search-icon msg-design-search">
+                <div class="black-line1"></div>
+                <div class="black-line2"></div>
+
+                <!-- <img src="assets/svg/search.svg"> -->
+            </div>
+        </div>
+
+        <!-- <div class="header-text header-shadow">Search
+
+        </div>
+        <div class="search-img">
+            <img src="assets/svg/search.svg">
+        </div> -->
+    </div>
+    <div class="container-holder shadow">
+        <div class="credential-container">
+            <div class="input-texthead username-txt ">USERNAME</div>
+            <input class="input-field username" type="text" required type="email" [(ngModel)]="loginCredentials.username" name="username">
+            <div class="input-texthead pwd-text">PASSWORD</div>
+            <input class="input-field password" type="text" required type="password" [(ngModel)]="loginCredentials.password" name="password">
+        </div>
+        <div class="signIn-btn btn-txt" (click)="saveData()">Sign In
+
+        </div>
+    </div>
+</div>

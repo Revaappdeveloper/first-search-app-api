@@ -1,0 +1,168 @@
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    background: -webkit-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgb(157, 131, 235) 33%, rgb(162, 148, 221) 51%, rgba(164, 162, 232, 1) 100%);
+}
+
+.header-holder {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+
+.search-container {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.search-txt {
+    width: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-icon {
+    position: absolute;
+    top: 11px;
+    width: 30px;
+    height: 30px;
+    right: 6px;
+}
+
+img {
+    width: 28px;
+    height: 30px;
+}
+
+.header-text {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-shadow {
+    text-shadow: 0 15px 25px rgba(78, 77, 77, .5);
+}
+
+.search-img {
+    position: relative;
+    top: 10px;
+    left: 620px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.container-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.shadow {
+    box-shadow: 0 15px 25px rgba(78, 77, 77, .5);
+}
+
+.credential-container {
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px grey;
+}
+
+.input-field {
+    position: relative;
+    left: 60px;
+    width: 80%;
+    height: 30px;
+    border: 1px solid red;
+    outline: none;
+    box-shadow: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.username {
+    top: 50px;
+}
+
+.password {
+    top: 100px;
+}
+
+.input-texthead {
+    position: absolute;
+    width: 100%;
+    left: 60px;
+    height: 50px;
+    font-size: 10px;
+    color: rgba(169, 147, 237, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.username-txt {
+    top: 30px;
+}
+
+.pwd-text {
+    top: 110px;
+}
+
+.signIn-btn {
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.btn-txt {
+    width: 100%;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.msg-design-search {
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 0;
+    background-color: yellow;
+    border: 1.5px solid black;
+}
+
+.black-line1 {
+    position: relative;
+    top: 10px;
+    left: 6px;
+    width: 22px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.black-line2 {
+    position: relative;
+    top: 15px;
+    left: 6px;
+    width: 16px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: black;
+}

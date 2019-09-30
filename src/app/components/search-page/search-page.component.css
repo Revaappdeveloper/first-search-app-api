@@ -1,0 +1,163 @@
+.searchPage-container {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background: -webkit-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgb(157, 131, 235) 33%, rgb(162, 148, 221) 51%, rgba(164, 162, 232, 1) 100%);
+}
+
+.search-head {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.searchHead-holder {
+    max-width: 700px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.dot-holder {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.logout-dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.upper-dot {
+    right: 20px;
+    top: 12px;
+}
+
+.lower-dot {
+    right: 20px;
+    top: 28px;
+}
+
+.search-txt {
+    color: gray;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.search-bar-holder {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* left: 350px; */
+    top: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search-bar {
+    width: 585px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.search-btn {
+    width: 100px;
+    height: 49px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: yellow;
+    outline: none;
+    cursor: pointer;
+}
+
+.logout-holder {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.logout-box {
+    position: absolute;
+    top: 20px;
+    right: 325px;
+    width: 120px;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    z-index: 1;
+}
+
+.logout-box:hover {
+    background-color: black;
+    color: white;
+}
+
+.shadow {
+    box-shadow: 0 15px 25px rgba(78, 77, 77, .5);
+}
+
+.listItems {
+    position: relative;
+    max-width: 700px;
+    top: 40px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    margin: 3px 0 0;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(162, 77, 241);
+    color: white;
+}
+
+.not-found-box {
+    position: relative;
+    max-width: 700px;
+    top: 35px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: red;
+    border: 1px solid white;
+    line-height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
